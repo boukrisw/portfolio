@@ -42,9 +42,10 @@ function Projects() {
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">Sorting Algorithms Visulaser</h5>
+                    {/*eslint-disable-next-line*/}
                     <p className="light">
-                      visualize sorting Algorithms. (Quick sort, shell sort and
-                      more)
+                      visualize sorting Algorithms. Quick sort, shell sort and
+                      more🔥
                     </p>
                     <div className="card-action">
                       <a
@@ -114,14 +115,14 @@ function Projects() {
                     <p className="light">
                       A web app for visualising sort Algorithms.
                       <br />
-                      (Quick sort, shell sort and more)
+                      Quick sort, shell sort and more
                     </p>
                     <div className="card-action">
                       <a href="/" className="teal-text">
                         WebSite
                       </a>
                       <a
-                        href="/"
+                        href="https://github.com/boukrisw/portfolio"
                         className="teal-text"
                         rel="noopener noreferrer"
                         target="_blank"
@@ -159,6 +160,79 @@ function Projects() {
                       </a>
                       <a
                         href="https://github.com/boukrisw/Sudoku-solver"
+                        className="teal-text"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        Github
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4">
+                <div className="card small center">
+                  <div>
+                    <img
+                      style={{ width: `150px`, height: `110px` }}
+                      src="https://gusandco.net/wp-content/uploads/2015/08/td-amazon-smile-logo-01-large.jpg"
+                      alt="Projet"
+                    />
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">Amazon clone</h5>
+                    {/*eslint-disable-next-line*/}
+                    <p className="light">
+                      AMAZON clone with REACT Context API 🚀
+                      <br />
+                    </p>
+                    <div className="card-action">
+                      <a
+                        href="https://clone-ade69.web.app/"
+                        className="teal-text"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        WebSite
+                      </a>
+                      <a
+                        href="https://github.com/boukrisw/Amazon-clone"
+                        className="teal-text"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        Github
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4">
+                <div className="card small center">
+                  <div>
+                    <img
+                      style={{ width: `150px`, height: `110px` }}
+                      src="https://yt3.ggpht.com/a/AATXAJyzyrPJMwSCUxtTlY-MQ9sEqX8XHm8MYq4yr7e6Gw=s900-c-k-c0xffffffff-no-rj-mo"
+                      alt="Projet"
+                    />
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">Netflix clone</h5>
+                    {/*eslint-disable-next-line*/}
+                    <p className="light">
+                      NETFLIX clone using Material-UI and TMDB API🌟
+                    </p>
+                    <div className="card-action">
+                      <a
+                        href="https://netflix-clone-42aed.web.app/"
+                        className="teal-text"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        WebSite
+                      </a>
+                      <a
+                        href="https://github.com/boukrisw/Netflix-clone"
                         className="teal-text"
                         rel="noopener noreferrer"
                         target="_blank"

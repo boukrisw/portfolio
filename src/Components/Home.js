@@ -160,7 +160,7 @@ function Home() {
                 <h2 className="center light-blue-text">
                   <i className="fas fa-lightbulb"></i>
                 </h2>
-                <h5 className="center">Check some funny Projects!</h5>
+                <h5 className="center">Check some funny Projects</h5>
                 <p className="light center">
                   <a
                     href="/Projects"
