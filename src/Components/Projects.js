@@ -44,7 +44,7 @@ function Projects() {
                     <h5 className="card-title">Sorting Algorithms Visulaser</h5>
                     {/*eslint-disable-next-line*/}
                     <p className="light">
-                      visualize sorting Algorithms. Quick sort, shell sort and
+                      Visualize sorting Algorithms. Quick sort, shell sort and
                       more🔥
                     </p>
                     <div className="card-action">
@@ -82,7 +82,7 @@ function Projects() {
                     <p className="light">Connect Four game with your friends</p>
                     <div className="card-action">
                       <a
-                        href="/"
+                        href="https://connect4roomchat.web.app/"
                         className="teal-text"
                         rel="noopener noreferrer"
                         target="_blank"
@@ -90,7 +90,7 @@ function Projects() {
                         WebSite
                       </a>
                       <a
-                        href="/"
+                        href="https://github.com/boukrisw/connect4"
                         className="teal-text"
                         rel="noopener noreferrer"
                         target="_blank"
@@ -112,11 +112,7 @@ function Projects() {
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">This Portfolio</h5>
-                    <p className="light">
-                      A web app for visualising sort Algorithms.
-                      <br />
-                      Quick sort, shell sort and more
-                    </p>
+                    <p className="light">Professional portfolio</p>
                     <div className="card-action">
                       <a href="/" className="teal-text">
                         WebSite
@@ -133,25 +129,23 @@ function Projects() {
                   </div>
                 </div>
               </div>
+
               <div className="col s12 m4">
                 <div className="card small center">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
-                      src={sudoku}
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/langfr-220px-Instagram_logo_2016.svg.png"
                       alt="Projet"
                     />
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Sudoku solver</h5>
-                    <p className="light">
-                      Can't solve a Sudoku problem!
-                      <br />
-                      Go check the solution here
-                    </p>
+                    <h5 className="card-title">Instagram clone</h5>
+                    {/*eslint-disable-next-line*/}
+                    <p className="light">SignUp and post a picture🔥</p>
                     <div className="card-action">
                       <a
-                        href="https://suduko-solver-25e58.web.app/"
+                        href="https://instagram-clone20.web.app/"
                         className="teal-text"
                         rel="noopener noreferrer"
                         target="_blank"
@@ -159,7 +153,7 @@ function Projects() {
                         WebSite
                       </a>
                       <a
-                        href="https://github.com/boukrisw/Sudoku-solver"
+                        href="https://github.com/boukrisw/Instagram-clone"
                         className="teal-text"
                         rel="noopener noreferrer"
                         target="_blank"
@@ -170,6 +164,7 @@ function Projects() {
                   </div>
                 </div>
               </div>
+
               <div className="col s12 m4">
                 <div className="card small center">
                   <div>
@@ -243,6 +238,43 @@ function Projects() {
                   </div>
                 </div>
               </div>
+              <div className="col s12 m4">
+                <div className="card small center">
+                  <div>
+                    <img
+                      style={{ width: `150px`, height: `110px` }}
+                      src={sudoku}
+                      alt="Projet"
+                    />
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">Sudoku solver</h5>
+                    <p className="light">
+                      Can't solve a Sudoku problem!
+                      <br />
+                      Go check the solution here
+                    </p>
+                    <div className="card-action">
+                      <a
+                        href="https://suduko-solver-25e58.web.app/"
+                        className="teal-text"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        WebSite
+                      </a>
+                      <a
+                        href="https://github.com/boukrisw/Sudoku-solver"
+                        className="teal-text"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        Github
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           ) : techno === "Angular" ? (
             <div className="row">
@@ -258,7 +290,7 @@ function Projects() {
                   <div className="card-body">
                     <h5 className="card-title">Shortest Path Visulaser</h5>
                     <p className="light">
-                      visualize Pathfinding Algorithms.
+                      Visualize Pathfinding Algorithms.
                       <br />
                       (A* search, dijkstra and more)
                     </p>
@@ -329,7 +361,10 @@ function Projects() {
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">takuzu solver</h5>
-                    <p className="light">Connect Four game with your friends</p>
+                    <p className="light">
+                      Can't solve a Takuzu problem!
+                      <br /> Go check the solution here
+                    </p>
                     <div className="card-action">
                       <a
                         href="https://takuzu-solver.web.app/?fbclid=IwAR3waKjwCAvJVljBwe2uuC1vpH86hC4yqqElKyMcshpgSShjNoV34LqftVo"
@@ -446,7 +481,7 @@ function Projects() {
                     </p>
                     <div className="card-action">
                       <a
-                        href="https://shortest-path-f1101.web.app/?fbclid=IwAR08A_WlqZKuzerRFU7kwFoQiGvQMGAcnlHN2QEs5uhN4qnKVBsmNucDQac"
+                        href="https://drive.google.com/file/d/1a5_l7WUp1mTtVqEjGkZxp952ohvHnE5x/view?usp=sharing"
                         className="teal-text"
                         rel="noopener noreferrer"
                         target="_blank"

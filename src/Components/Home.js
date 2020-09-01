@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 
 import Typical from "react-typical";
-
+import CV from "../Ressources/CV.pdf";
 function Home() {
   return (
     <div>
@@ -212,7 +212,7 @@ function Home() {
                 <li>
                   <a
                     className="white-text footer-text"
-                    href="https://www.linkedin.com/in/walid-boukris-179771157/"
+                    href="https://www.fiverr.com/boukrisw"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -246,10 +246,15 @@ function Home() {
         <div className="footer-copyright">
           <div className="container">
             Made by{" "}
-            <a href="/" className="light-blue-text  text-lighten-2">
+            <a
+              href={CV}
+              className="light-blue-text  text-lighten-2"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Walid BOUKRIS
             </a>{" "}
-            with ReactJs and deployed in Firebase (;
+            with ReactJs and deployed in Firebase!
           </div>
         </div>
       </footer>
