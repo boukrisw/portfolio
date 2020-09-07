@@ -31,6 +31,9 @@ class Navbar extends Component {
                 <li>
                   <a href="/Projects">Projects</a>
                 </li>
+                <li>
+                  <a href="/Contact">Contact</a>
+                </li>
               </ul>
             </div>
           </nav>
@@ -41,6 +44,9 @@ class Navbar extends Component {
           </li>
           <li>
             <a href="/Projects">Projects</a>
+          </li>
+          <li>
+            <a href="/Contact">Contact</a>
           </li>
         </ul>
       </div>

@@ -1,9 +1,9 @@
 @media (prefers-reduced-motion: no-preference) {
-    .turn {
-      animation: App-logo-spin infinite 20s linear;
-    }
+  .turn {
+    animation: App-logo-spin infinite 20s linear;
   }
-  
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -13,19 +13,36 @@
   }
 }
 
-.i{
+.i {
   height: 40px;
   width: 40px;
 }
 
-.spaan{
+.spaan {
   color: teal;
 }
 
-.footer-text{
-  font-size: 1.5em; color: teal;
+.footer-text {
+  font-size: 1.5em;
+  color: teal;
 }
 
-.typicalSize{
-  font-size: 30px
+.typicalSize {
+  font-size: 30px;
+}
+
+.Message {
+  height: 250px;
+}
+
+.position {
+  margin-left: 15px !important;
+  width: 90% !important;
+}
+.positionDiv {
+  width: 90% !important;
+}
+
+.first {
+  margin-top: 30px !important;
 }

@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             <Navbar />
             <Route exact path="/" component={Home} />
             <Route path="/Projects" component={Projects} />
+            <Route path="/Contact" component={Contact} />
           </div>
         </BrowserRouter>
       </div>

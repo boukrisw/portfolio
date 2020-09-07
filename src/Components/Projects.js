@@ -243,6 +243,76 @@ function Projects() {
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/langfr-220px-WhatsApp.svg.png"
+                      alt="Projet"
+                    />
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">WhatsApp clone</h5>
+                    {/*eslint-disable-next-line*/}
+                    <p className="light">
+                      Create a Chat Room and talk with your friends, family 🌟
+                    </p>
+                    <div className="card-action">
+                      <a
+                        href="https://whatsapp-clone97.web.app/"
+                        className="teal-text"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        WebSite
+                      </a>
+                      <a
+                        href="https://github.com/boukrisw/whatsapp-clone"
+                        className="teal-text"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        Github
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4">
+                <div className="card small center">
+                  <div>
+                    <img
+                      style={{ width: `150px`, height: `110px` }}
+                      src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
+                      alt="Projet"
+                    />
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">Airbnb clone</h5>
+                    {/*eslint-disable-next-line*/}
+                    <p className="light">Airbnb clone with REACT 🚀🚀</p>
+                    <div className="card-action">
+                      <a
+                        href="https://airbnb-clone97.web.app/"
+                        className="teal-text"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        WebSite
+                      </a>
+                      <a
+                        href="https://github.com/boukrisw/airbnb"
+                        className="teal-text"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        Github
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4">
+                <div className="card small center">
+                  <div>
+                    <img
+                      style={{ width: `150px`, height: `110px` }}
                       src={sudoku}
                       alt="Projet"
                     />
