@@ -46,3 +46,7 @@
 .first {
   margin-top: 30px !important;
 }
+
+.imageProject:hover {
+  transform: scale(1.1);
+}

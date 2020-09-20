@@ -1,24 +1,18 @@
 import React from "react";
 import "../App.css";
-
-import Typical from "react-typical";
 import CV from "../Ressources/CV.pdf";
+import im from "../Ressources/back.jpg";
 function Home() {
   return (
-    <div>
+    <div
+      style={{
+        backgroundSize: "cover",
+        backgroundImage: `url(${im})`,
+        backgroundPosition: "center center",
+      }}
+    >
       <div className="section no-pad-bot" id="index-banner">
         <div className="container">
-          <Typical
-            className="center light-blue-text typicalSize"
-            steps={[
-              "Hello world!",
-              1000,
-              "Hello world! Welcome to Walid BOUKRIS PORTFOLIO",
-              500,
-            ]}
-            loop={1}
-            wrapper="p"
-          />
           <h1 className="header center teal-text  text-lighten-2">
             Full stack Developper
           </h1>

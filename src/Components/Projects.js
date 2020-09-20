@@ -32,7 +32,7 @@ function Projects() {
           {techno === "React" ? (
             <div className="row">
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -69,7 +69,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -102,7 +102,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -131,7 +131,7 @@ function Projects() {
               </div>
 
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -166,7 +166,7 @@ function Projects() {
               </div>
 
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -203,7 +203,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -239,7 +239,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -275,7 +275,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -296,20 +296,12 @@ function Projects() {
                       >
                         WebSite
                       </a>
-                      <a
-                        href="https://github.com/boukrisw/airbnb"
-                        className="teal-text"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        Github
-                      </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -349,7 +341,7 @@ function Projects() {
           ) : techno === "Angular" ? (
             <div className="row">
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       src={Sokoban}
@@ -386,7 +378,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -421,7 +413,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       style={{ width: `150px`, height: `110px` }}
@@ -460,7 +452,7 @@ function Projects() {
           ) : techno === "JAVA" ? (
             <div className="row">
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       src={fanorana}
@@ -495,7 +487,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       src={plane}
@@ -534,7 +526,7 @@ function Projects() {
           ) : techno === "Python" ? (
             <div className="row">
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       src={Pygame}
@@ -574,7 +566,7 @@ function Projects() {
           ) : techno === "C" ? (
             <div className="row">
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       src={shell}
@@ -602,7 +594,7 @@ function Projects() {
                 </div>
               </div>
               <div className="col s12 m4">
-                <div className="card small center">
+                <div className="card small center imageProject">
                   <div>
                     <img
                       src={train}
