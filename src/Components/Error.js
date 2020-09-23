@@ -19,7 +19,8 @@ function Error({ error, done }) {
           Done{" "}
           <span role="img" aria-label="emogis">
             👌🏽🚀
-          </span>
+          </span>{" "}
+          Thank you
         </div>
       )}
     </div>

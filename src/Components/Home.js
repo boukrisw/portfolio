@@ -1,19 +1,27 @@
 import React from "react";
 import "../App.css";
-import CV from "../Ressources/CV.pdf";
-import im from "../Ressources/back.jpg";
+import Particles from "react-particles-js";
+
 function Home() {
   return (
-    <div
-      style={{
-        backgroundSize: "cover",
-        backgroundImage: `url(${im})`,
-        backgroundPosition: "center center",
-      }}
-    >
+    <div>
       <div className="section no-pad-bot" id="index-banner">
+        <Particles
+          className="particles"
+          params={{
+            particles: {
+              number: {
+                value: 100,
+                density: {
+                  enable: true,
+                  value_area: 800,
+                },
+              },
+            },
+          }}
+        />
         <div className="container">
-          <h1 className="header center teal-text  text-lighten-2">
+          <h1 className="header center  text-lighten-2">
             Full stack Developper
           </h1>
           <hr />
@@ -51,7 +59,7 @@ function Home() {
           <div className="row">
             <div className="col s12 m4">
               <div className="icon-block">
-                <h2 className="center light-blue-text">
+                <h2 className="center">
                   <i className="fas fa-server"></i>
                 </h2>
                 <h5 className="center">Back-end</h5>
@@ -71,7 +79,7 @@ function Home() {
 
             <div className="col s12 m4">
               <div className="icon-block">
-                <h2 className="center light-blue-text">
+                <h2 className="center">
                   <i className="fas fa-file-code"></i>
                 </h2>
                 <h5 className="center">Front-end</h5>
@@ -92,7 +100,7 @@ function Home() {
 
             <div className="col s12 m4">
               <div className="icon-block">
-                <h2 className="center light-blue-text">
+                <h2 className="center">
                   <i className="fas fa-database"></i>
                 </h2>
                 <h5 className="center">Database</h5>
@@ -111,7 +119,7 @@ function Home() {
           <div className="row">
             <div className="col s12 m4">
               <div className="icon-block">
-                <h2 className="center light-blue-text">
+                <h2 className="center">
                   <i className="fas fa-laptop"></i>
                 </h2>
                 <h5 className="center">Tools</h5>
@@ -129,7 +137,7 @@ function Home() {
 
             <div className="col s12 m4">
               <div className="icon-block">
-                <h2 className="center light-blue-text">
+                <h2 className="center">
                   <i className="fas fa-star"></i>
                 </h2>
                 <h5 className="center">Soft skills</h5>
@@ -151,7 +159,7 @@ function Home() {
 
             <div className="col s12 m4">
               <div className="icon-block">
-                <h2 className="center light-blue-text">
+                <h2 className="center">
                   <i className="fas fa-lightbulb"></i>
                 </h2>
                 <h5 className="center">Check some funny Projects</h5>
@@ -168,90 +176,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <footer className="page-footer grey">
-        <div className="container">
-          <div className="row">
-            <div className="col l6 s14">
-              <h5 className="white-text">About Me</h5>
-              <p className="grey-text text-lighten-4">
-                Currently I'am preparing my 1st year of Master in Computer
-                Science, I'am full of energy and ready to take up any challenge.
-                <br /> I'am open to any mission anywhere in the world, front or
-                back end, in all languages!
-              </p>
-            </div>
-            <div className="col l2 s12">
-              <h5 className="white-text">Connect</h5>
-              <ul>
-                <li>
-                  <a
-                    className="white-text footer-text"
-                    href="https://github.com/boukrisw"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fab fa-github"></i>&nbsp; Github
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="white-text footer-text"
-                    href="https://www.linkedin.com/in/walid-boukris-179771157/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fab fa-linkedin"></i>&nbsp; Linkedin
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="white-text footer-text"
-                    href="https://www.fiverr.com/boukrisw"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fas fa-briefcase"></i>&nbsp; Fiverr
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col l4 s12">
-              <h5 className="white-text">Contact</h5>
-              <ul>
-                <li>
-                  <div className="white-text footer-text">
-                    <i className="fas fa-phone"></i> (+33) 6 45 36 96 39
-                  </div>
-                </li>
-                <li>
-                  <div className="white-text footer-text">
-                    <i className="fas fa-envelope"></i> boukrisw@gmail.com
-                  </div>
-                </li>
-                <li>
-                  <div className="white-text footer-text">
-                    <i className="fas fa-map-marker-alt"></i> Grenoble, France
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="footer-copyright">
-          <div className="container">
-            Made by{" "}
-            <a
-              href={CV}
-              className="light-blue-text  text-lighten-2"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Walid BOUKRIS
-            </a>{" "}
-            with ReactJs and deployed in Firebase!
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
