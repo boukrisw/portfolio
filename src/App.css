@@ -13,6 +13,12 @@
   }
 }
 
+.footer {
+  background-color: transparent !important;
+  max-width: 125px;
+  width: 125px;
+}
+
 .i {
   height: 40px;
   width: 40px;
