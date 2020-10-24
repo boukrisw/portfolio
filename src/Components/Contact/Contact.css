@@ -1,0 +1,15 @@
+.Message {
+  height: 250px;
+}
+
+.position {
+  margin-left: 15px !important;
+  width: 90% !important;
+}
+.positionDiv {
+  width: 90% !important;
+}
+
+.first {
+  margin-top: 30px !important;
+}
